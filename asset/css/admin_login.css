@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: none;
+  }
+.content {
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+    top: 60px;
+    left: 36%;
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    border-left: 2px solid #4477ce;
+    border-radius: 10px;
+}
+
+.content .logo img{
+    position: absolute;
+    top: 38px;
+    width: 100px;
+    left: 39%;
+}
+
+.content .head p{
+    position: absolute;
+    top: 150px;
+    left:126px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#email-head{
+    position: absolute;
+    top: 200px;
+    left: 14.5%;
+}
+#password-head{
+    position: absolute;
+    top: 280px;
+    left: 14.5%;
+}
+.content #e-mail{
+    position: absolute;
+    top: 230px;
+    width: 75%;
+    left: 13.5%;
+}
+.content #password{
+    position: absolute;
+    width: 75%;
+    left: 13.5%;
+    top: 310px;
+}
+.content a{
+    position: absolute;
+    top: 355px;
+    left: 14.5%;
+    font-size: 14px;
+    text-decoration: none;
+    color: #4477ce;
+    font-weight: 600;
+
+}
+.content button{
+    position: absolute;
+    bottom: 20px;
+    left: 42%;
+    border-radius: 8%;
+    height: 30px;
+    padding-bottom: 30px;
+}
+.content .btn.primary {
+    background-color: #4477ce ;
+    color: #fff;
+}
+footer p{
+    position: absolute;
+    font-size: 18px;
+    color:#4477ce;
+    font-weight: 1000;
+    left: 600px;
+    bottom: 30px;
+}
