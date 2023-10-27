@@ -9,7 +9,7 @@ body {
     height: 100vh;
     overflow: hidden;
     background-color: none;
-  }
+}
 .content {
     position: absolute;
     box-sizing: border-box;
@@ -22,14 +22,12 @@ body {
     border-left: 2px solid #4477ce;
     border-radius: 10px;
 }
-
 .content .logo img{
     position: absolute;
     top: 38px;
     width: 100px;
     left: 39%;
 }
-
 .content .head p{
     position: absolute;
     top: 150px;
@@ -59,15 +57,18 @@ body {
     left: 13.5%;
     top: 310px;
 }
-.content a{
+.content form a{
     position: absolute;
     top: 355px;
     left: 14.5%;
     font-size: 14px;
     text-decoration: none;
     color: #4477ce;
-    font-weight: 600;
-
+    font-weight: bold !important;
+}
+.content form a:hover{
+    transition: 1s;
+    color: #e94597;
 }
 .content button{
     position: absolute;
@@ -89,3 +90,20 @@ footer p{
     left: 600px;
     bottom: 30px;
 }
+@media (max-width: 575px) {
+    .content {
+        position: absolute;
+        top: 150px;
+        max-width: 90%;
+        left: 5%; 
+    }
+    .head p{
+        margin-left:-9px;
+    }
+    footer p{
+        position: absolute;
+        bottom: 200px;
+        left: 120px;
+    }
+}
+
